@@ -1,0 +1,101 @@
+body{
+  background-color: #0e0e0e;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+}
+
+.buscador {
+  position: absolute;
+  margin: 1700px;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+}
+
+.nav-links{
+  display: flex;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 20px;
+}
+
+.icono-barra{
+  display: flex;
+  margin-left: 200px;
+  height: 40px;
+}
+
+.contenido {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.dev{
+  background-image: linear-gradient(to left, #ec4444, #c54065);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.contenido-1{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-left: 200px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.video{
+  display: flex;
+  padding-left: 100px;
+  margin-right: 150px;
+  float: right;
+  height: 600px;
+  width: 800px;
+}
+
+.contenido-1 .otro {
+  color: gray;
+}
+
+.bloques {
+  display: flex;
+  float: left;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  width: 350px;
+  height: 120px;
+  background-color: gray;
+}
+
+.bloques .bloques-p1{
+  font-size: 30px;
+  margin-left: 170px;
+  margin-top: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todosbloques .bloques2 {
+  display: flex;
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  width: 350px;
+  height: 120px;
+  background-color: gray;
+}
